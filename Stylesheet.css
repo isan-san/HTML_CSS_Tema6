@@ -1,0 +1,12 @@
+button::before{
+    content: "hola";
+}
+
+button:hover {
+  color: aliceblue;
+  background-color: green;
+}
+
+button:active::before{
+    content: "¡Hecho!";
+}
